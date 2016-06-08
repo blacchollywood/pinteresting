@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/Data'
+
   root 'pages#home'
   get 'about' => "pages#about" #creates about path
 
